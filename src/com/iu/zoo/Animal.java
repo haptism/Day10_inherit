@@ -46,7 +46,7 @@ public abstract class Animal { // 상속 했었다.
 		this.age = age;
 	}
 
-	public void eat() {
+	public  abstract void eat(); {
 
 	}
 

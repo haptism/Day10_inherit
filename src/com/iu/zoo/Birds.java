@@ -5,14 +5,6 @@ public abstract class Birds extends Animal {
 
 	public abstract void fly();
 
-	public Birds() {
-
-	}
-
-	public Birds(String wing) {
-
-	}
-
 	public String getWing() {
 		return wing;
 	}
@@ -21,6 +13,7 @@ public abstract class Birds extends Animal {
 		this.wing = wing;
 	}
 
+	@Override
 	public void eat() {
 
 	}

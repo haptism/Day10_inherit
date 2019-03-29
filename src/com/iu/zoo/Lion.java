@@ -21,13 +21,18 @@ public class Lion extends Animal {
 	}
 
 	public void eat() {
-		// 오버라이딩
-//		super.eat();
-		System.out.println("찹찹찹");
 
 	}
 
+//	public void eat() {
+//		// 오버라이딩
+//		super.eat();
+//		System.out.println("찹찹찹");
+//
+//	}
+
 	public static void main(String[] args) {
+
 		Lion lion = new Lion();
 		lion.eat();
 		// 실체화 되지않은 객체는 만들면 안됨
