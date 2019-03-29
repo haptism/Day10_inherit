@@ -5,6 +5,7 @@ public class Computer extends Mart {
 	private String cpu;
 
 	public Computer() {
+		// super();
 		this.cpu = "i7";
 		this.volume = 256;
 		this.setBrand("Apple");

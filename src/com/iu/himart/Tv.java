@@ -4,6 +4,7 @@ public class Tv extends Mart {
 	private int inch;
 
 	public Tv() {
+		// super();
 		this.inch = 10;
 		this.setBrand("Lg");
 		this.setColor("Black");

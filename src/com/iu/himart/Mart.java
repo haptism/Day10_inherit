@@ -7,6 +7,13 @@ public abstract class Mart {
 	private int price;
 	private int point;
 
+	public Mart() {
+		this.brand = "samsung";
+		this.color = "white";
+		this.price = 100000;
+		this.point = 10;
+	}
+
 	public String getBrand() {
 		return brand;
 	}
