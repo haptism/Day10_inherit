@@ -1,6 +1,6 @@
 package com.iu.zoo;
 
-public class Animal {
+public abstract class Animal { // 상속 했었다.
 
 	// 공통적인 요소
 
@@ -44,6 +44,10 @@ public class Animal {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+	public void eat() {
+
 	}
 
 }

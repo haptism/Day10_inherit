@@ -1,13 +1,30 @@
 package com.iu.zoo;
 
-public class Ostrich extends Animal {
-	private String wing;
+public class Ostrich extends Birds { // 상속
 
-	public String getWing() {
-		return wing;
+	private int egg;
+
+//		super("test");  // 부모클래스의 생성자를 호출
+//		this(10);
+//		this.egg = 10;
+
+	public int getEgg() {
+		return egg;
 	}
 
-	public void setWing(String wing) {
-		this.wing = wing;
+	public void setEgg(int egg) {
+		this.egg = egg;
+	}
+
+	public Ostrich() {
+		super();
+	}
+
+	public Ostrich(int egg) {
+//		super()"test";
+
+		this.egg = egg;
+		this.getEgg();
+//		super.getEgg();
 	}
 }
