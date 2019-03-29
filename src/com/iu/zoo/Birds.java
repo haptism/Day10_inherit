@@ -1,7 +1,9 @@
 package com.iu.zoo;
 
-public class Birds extends Animal {
+public abstract class Birds extends Animal {
 	private String wing;
+
+	public abstract void fly();
 
 	public Birds() {
 

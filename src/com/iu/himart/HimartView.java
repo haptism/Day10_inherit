@@ -6,17 +6,24 @@ public class HimartView extends Mart {
 
 	// 각 제품의 정보를 출력 메서드.
 
-	public void view(Tv tv) {
+	public void view(Mart mart) {
 
 		System.out.println("===========================");
-		System.out.println("Brand : " + tv.getBrand());
-		System.out.println("Color : " + tv.getColor());
-		System.out.println("Price : " + tv.getPrice());
-		System.out.println("Point : " + tv.getPoint());
-		System.out.println("Inch : " + tv.getInch());
+		System.out.println("Brand : " + mart.getBrand());
+		System.out.println("Color : " + mart.getColor());
+		System.out.println("Price : " + mart.getPrice());
+		System.out.println("Point : " + mart.getPoint());
 		System.out.println("===========================");
-
 	}
+//		if (m instanceof Tv) {
+//			Tv tv = (Tv)m;
+//			System.out.println(tv.getInch());
+//		}else if (m instanceof Computer)m;
+//	}else
+//
+//	{
+//		HandPhone h = (HandPhone) m;
+//	}
 
 	public void view2(Computer computer) {
 
